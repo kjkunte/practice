@@ -1,7 +1,7 @@
 function remove(array, element){
     console.log(array);             
     const index = search(array,element);  
-    console.log(index);  
+    console.log("index ala" + index);  
     array.splice(index, 1); // By default if the first argument i.e index is not defiined, the splice function takes 0 as the index
     // console.log(array);
     return array;
@@ -24,8 +24,13 @@ function search(array, element){
         console.log("---" + array);
     }
     // console.log(array.length);
-    midIndex = array.length
+     midIndex = array.length/2;
     // return index;
+    while(array[midIndex]==element){
+        if (array[midIndex] > element)
+        {++midIndex;} else {--midIndex}   
+    }
+            return midIndex;
 }
 
 function callme(){ 
