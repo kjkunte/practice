@@ -5,8 +5,13 @@ using namespace std;
 class X
 {
 public:
+
+// Delegate Constructors : To delegate a constructor means that one 
+// constructor can call another to initialise the object.
+  /*This is what the below two lines do*/
   X():val_(1){}
   X(int val):val_(val){}
+  
   int get(){
     return val_;
   }
@@ -28,7 +33,6 @@ int main(){
     {
       cout<<ax[j].get();
       cout<<endl;
-	
     }
   
   //  for(int i=0; i<10; ++i){

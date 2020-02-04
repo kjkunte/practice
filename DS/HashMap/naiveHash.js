@@ -1,6 +1,6 @@
 class HashMap{
-    constructor(intialCapacity=2) {
-        this.buckets = new Array(initilCapacity);
+    constructor(initialCapacity=2) {
+        this.buckets = new Array(initialCapacity);
     }
 
     set(key,value) {
@@ -26,7 +26,7 @@ class HashMap{
 }
 module.exports = HashMap;
     const assert = require('assert');
-    const hasMap =  new HaspMap();
+    const hashMap =  new HashMap();
     hashMap.set('cat',2);
     hashMap.set('rat',7);
     hashMap.set('dog',1);
