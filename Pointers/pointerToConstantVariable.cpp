@@ -21,7 +21,7 @@ int main(){
   // int* p = &q;
 
   //Compilation error since the variable q is declared as 
-  *p = 7; //changing the value of the pointer
+  *p = 7; //changing the value of the pointers
 
 
     

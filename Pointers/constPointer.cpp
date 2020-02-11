@@ -11,6 +11,6 @@ int main(){
   int *const ptr = &i;
 
   *ptr = 100;
-   ptr = &j;
+  ptr = &j;
    return 0;
 }
