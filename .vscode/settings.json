@@ -1,5 +1,7 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+
+    "python.pythonPath": "/home/kj/Documents/Python/env/bin"
 }

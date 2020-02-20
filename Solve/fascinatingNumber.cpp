@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
+
 // for concatenating two numbers, they have to be converted to string
 int findFascinatingNumber(int x1){
     int x2 = x1*2;
@@ -44,7 +45,6 @@ int main() {
     
     int x1,t=0;
     cin>>t;
-    
     while(t--!=0){
     cin>>x1;
     cout<<findFascinatingNumber(x1)<<endl;

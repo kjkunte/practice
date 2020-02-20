@@ -1,0 +1,1 @@
+insert into severity (id, eventId, severity, createdAt) 	values ('1', '1001', '1', '2020-01-01');
