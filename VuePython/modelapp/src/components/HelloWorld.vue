@@ -37,3 +37,36 @@
     </v-layout>
   </v-container>
 </template>
+
+<script>
+  import axios from 'axios'
+export default {
+    name: 'HelloWorld',
+    data: () => ({
+      sepalLength: '',
+      sepalWidth: '',
+      petalLength: '',
+      petalWidth: '',
+      predictedClass : ''
+    }),
+    methods: {
+    submit () {
+      axios.post('http://127.0.0.1:5000/predict', {
+        sepal_length: this.sepalLength,
+        sepal_width: this.sepalWidth,
+        petal_length: this.petalLength,
+        petal_width: this.petalWidth
+      })
+      .then((response) => {
+        this.predictedClass = response.data.class
+      })
+    },
+    clear () {
+      this.sepalLength = ''
+      this.sepalWidth = ''
+      this.petalLength = ''
+      this.petalWidth = ''
+    }
+  }
+}
+</script>
