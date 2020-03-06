@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const routerOptions = [
-    { path: '/', component: 'Home'},
+    {path: '/', component: 'home'},
     {path: 'about', component: 'About'}
 ]
 // The .map will call a predefined callback function on the array and return an array of results
