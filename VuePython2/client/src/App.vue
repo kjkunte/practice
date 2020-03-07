@@ -1,20 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
       <about/>
       <home/>
+      <forloopsinVue/>
+      <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
 import About from './components/About.vue'
 import home from './components/home.vue'
+import forloopsinVue from './components/forloopsinVue.vue'
 
 export default {
   name: 'App',
   components: {
     About,
-    home
+    home,
+    forloopsinVue
   }
 }
 </script>

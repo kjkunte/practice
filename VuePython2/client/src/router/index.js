@@ -3,7 +3,8 @@ import Router from 'vue-router'
 
 const routerOptions = [
     {path: '/', component: 'home'},
-    {path: 'about', component: 'About'}
+    {path: 'about', component: 'About'},
+    {path: 'flVue', component: 'forloopsinVue'}
 ]
 // The .map will call a predefined callback function on the array and return an array of results
 // Here the array is RouterOptions
