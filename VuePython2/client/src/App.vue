@@ -1,10 +1,16 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-      <about/>
-      <home/>
+      <!-- <router-link></router-link> -->
+       <!-- <router-view/>
+        -->
+      <about></about>
+      <home></home>
       <forloopsinVue/>
-      <!-- <router-view/> -->
+      <!-- <about/>
+      <home/>
+      <forloopsinVue/> -->
+     
   </div>
 </template>
 
