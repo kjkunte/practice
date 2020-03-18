@@ -10,7 +10,6 @@
       <!-- <about/>
       <home/>
       <forloopsinVue/> -->
-     
   </div>
 </template>
 
