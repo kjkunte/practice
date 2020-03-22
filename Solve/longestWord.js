@@ -1,6 +1,6 @@
 function findLongestWordLength(str) {
   var str1 = '';
-  str1 = str.split('');
+  str1 = str.split(' ');
 //  console.log(str1.length)
   var arr = []
   arr.push(str.length)
@@ -18,8 +18,8 @@ function findLongestWordLength(str) {
       // console.log(diff)
     }
   }
-  // console.log(arr);
-  console.log(diff -1);
+  console.log(arr);
+  console.log(str1);
   return (diff -1);
 }
 
