@@ -2,12 +2,14 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
       <!-- <router-link></router-link> -->
-       <!-- <router-view/>
+       <!-- 
         -->
       <about></about>
       <home></home>
       <forloopsinVue/>
       <passingDataFromComponent/>
+      <test/>
+      <!-- <router-view/> -->
       <!-- <about/>
       <home/>
       <forloopsinVue/> -->
@@ -19,6 +21,8 @@ import About from './components/About.vue'
 import home from './components/home.vue'
 import forloopsinVue from './components/forloopsinVue.vue'
 import passingDataFromComponent from './components/passingDataFromComponent'
+import test from './components/test'
+
 
 export default {
   name: 'App',
@@ -26,7 +30,8 @@ export default {
     About,
     home,
     forloopsinVue,
-    passingDataFromComponent
+    passingDataFromComponent,
+    test
   }
 }
 </script>
