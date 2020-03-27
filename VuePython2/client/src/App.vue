@@ -7,6 +7,7 @@
       <about></about>
       <home></home>
       <forloopsinVue/>
+      <passingDataFromComponent/>
       <!-- <about/>
       <home/>
       <forloopsinVue/> -->
@@ -17,13 +18,15 @@
 import About from './components/About.vue'
 import home from './components/home.vue'
 import forloopsinVue from './components/forloopsinVue.vue'
+import passingDataFromComponent from './components/passingDataFromComponent'
 
 export default {
   name: 'App',
   components: {
     About,
     home,
-    forloopsinVue
+    forloopsinVue,
+    passingDataFromComponent
   }
 }
 </script>

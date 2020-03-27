@@ -24,7 +24,6 @@
 <script>
 // Vue implements two way data binding
 export default {
-
   data: () => ({
     greeting: "Hello YZZ",
     count: 0,
@@ -33,7 +32,6 @@ export default {
       {name: 'kitkat'},
       {name: 'Asshole'},
       {name: 'BigAsshole'}
-
     ]
   })
 }
