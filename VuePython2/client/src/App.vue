@@ -7,12 +7,8 @@
       <about></about>
       <home></home>
       <forloopsinVue/>
-      <passingDataFromComponent/>
       <test/>
-      <!-- <router-view/> -->
-      <!-- <about/>
-      <home/>
-      <forloopsinVue/> -->
+      <blog/>
   </div>
 </template>
 
@@ -20,9 +16,9 @@
 import About from './components/About.vue'
 import home from './components/home.vue'
 import forloopsinVue from './components/forloopsinVue.vue'
-import passingDataFromComponent from './components/passingDataFromComponent'
+// import clickButton from './components/button'
 import test from './components/test'
-
+import blog from './components/blog'
 
 export default {
   name: 'App',
@@ -30,8 +26,9 @@ export default {
     About,
     home,
     forloopsinVue,
-    passingDataFromComponent,
-    test
+    // clickButton,
+    test,
+    blog
   }
 }
 </script>

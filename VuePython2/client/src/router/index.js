@@ -6,7 +6,9 @@ const routerOptions = [
     {path: 'about', component: 'About'},
     {path: 'flVue', component: 'forloopsinVue'},
     {path: 'pdfc', component: 'passingDataFromComponent'},
-    {path: 'test', component: 'test'}
+    {path: 'test', component: 'test'},
+    {path: 'clickButton', component: 'buttonComp'}
+
 ]
 // The .map will call a predefined callback function on the array and return an array of results
 // Here the array is RouterOptions
