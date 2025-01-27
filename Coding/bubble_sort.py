@@ -6,7 +6,6 @@ def bubble_sort(elements):
                 elements[j], elements[j+1] = elements[j+1], elements[j] # assignment
 
 # function call
-
 elems = [5, 2, 8, 1, 9]
 bubble_sort(elems)
 print(elems)
